@@ -1,0 +1,11 @@
+*~
+\#*\#
+target
+.lein-failures
+log
+stream2es
+.lein-repl-history
+/*.tgz
+pom.xml
+*.jar
+av.txt
