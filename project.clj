@@ -5,4 +5,5 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[clojurewerkz/elastisch "1.1.0"]
                  [org.clojure/tools.logging "0.2.6"]
-                 [log4j/log4j "1.2.17"]])
+                 [log4j/log4j "1.2.17"]]
+ :main log4j.e)
