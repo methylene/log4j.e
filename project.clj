@@ -6,4 +6,4 @@
   :dependencies [[clojurewerkz/elastisch "1.1.0"]
                  [org.clojure/tools.logging "0.2.6"]
                  [log4j/log4j "1.2.17"]]
- :main log4j.e)
+  :resource-paths ["etc"])

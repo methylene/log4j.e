@@ -13,7 +13,7 @@
 (defn -getFormat [_] (:format @properties))
 
 (defn -append [_ event]
-  (println "log4j.e INFO  " (.getMessage event)))
+  (format "log4j.e INFO %s %s %n" (:port @properties) (.getMessage event)))
 
 (defn -close [_])
 

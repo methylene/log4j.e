@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="warn" name="MyApp" packages="">
+  <appenders>
+    <Elastic name="elastic" host="http://foo.bar" port="3030">
+    </Elastic>
+    <Async name="Async">
+      <appender-ref ref="elastic"/>
+    </Async>
+  </appenders>
+  <loggers>
+    <root level="info">
+      <appender-ref ref="Async"/>
+    </root>
+  </loggers>
+</configuration>
